@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // def tri_recursion(k):
+    // if (k > 0):
+    //   result = k + tri_recursion(k - 1)
+    // print(result)
+    //   else:
+    // result = 0
+    // return result
+
+    // print("\n\nRecursion Example Results")
+    // tri_recursion(6)
+
+    function tri_recursion(k) {
+      if (k > 0) {
+        result = k + tri_recursion(k - 1)
+        console.log(result)
+      } else {
+        result = 0
+      }
+
+      return result
+    }
+
+    debugger
+
+    tri_recursion(6)
+  </script>
+</body>
+
+</html>
